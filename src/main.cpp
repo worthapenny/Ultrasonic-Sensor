@@ -8,7 +8,7 @@ void setup()
   delay(2000); // for things to catch up
 
   Serial.begin(115200);
-  Serial.printf("\nStarting up...\n");
+  Serial.printf("\nStarting up... \n");
 
   // Trigger is default to D3 (Tri = 3)
   // Echo is default to D5  (E is 5th)
